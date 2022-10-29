@@ -9,7 +9,7 @@ def main(price):
     sum = 0
     list1 = []
     
-    for i in range(11):
+    for i in range(10):
         sum +=  price 
         list1.append(sum)
     return list1
