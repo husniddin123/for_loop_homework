@@ -6,4 +6,11 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    bedir = []
+    for i in list1:
+        bedir += [i.title()]
+
+
+    return list (bedir)
+
+print(main(["alisher,bekzod"]))    
